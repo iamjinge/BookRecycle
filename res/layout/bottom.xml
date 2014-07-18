@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    android:background="@color/theme_main" >
+    
+    <TextView 
+        android:text="@string/home_page"
+        style="@style/bottom_textview"/>
+    
+    <TextView 
+        android:text="@string/books"
+        style="@style/bottom_textview"/>
+
+    <TextView
+        style="@style/bottom_textview"
+        android:layout_height="match_parent"
+        android:text="@string/put_on_shelf" />
+    
+    <TextView 
+        android:text="@string/bookshelf"
+        style="@style/bottom_textview"/>
+    
+    <TextView 
+        android:text="@string/mine"
+        style="@style/bottom_textview"/>
+
+</LinearLayout>
